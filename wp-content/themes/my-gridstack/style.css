@@ -1,14 +1,18 @@
 /*
 Theme Name: my-gridstack
-Description: Thème enfant de GridStack
+Description: Theme enfant de GridStack
 Author: Maryline
 Author URI: http://creativejuiz.com
 Version: 1.9
 Template: gridstack
-*/﻿
+*/
 
-@import url("../gridstack/style.css")
+@import url("../gridstack/style.css");
 
 .pagetitle {
-    color: red;
+    padding: 0px 0 0px 0;
+    margin-bottom: 0px;
 }
+
+
+
