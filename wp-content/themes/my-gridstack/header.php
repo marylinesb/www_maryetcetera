@@ -152,7 +152,7 @@ wp_head(); ?>
    <div class="clear"></div>
        <div class="mobilenavigation">
         <?php if ( has_nav_menu( 'main_nav_menu' ) ) { /* if menu location 'Top Navigation Menu' exists then use custom menu */ ?>
-                <?php wp_nav_menu( array('menu' => 'Main Navigation Menu', 'theme_location' => 'main_nav_menu', 'items_wrap' => '<ul id="mobilenav"><li id="back"><a href="#top" class="menutop">'. __('Hide Navigation', 'framework') . '</a></li>%3$s</ul>')); ?>
+                <?php wp_nav_menu( array('menu' => 'Main Navigation Menu', 'theme_location' => 'main_nav_menu', 'items_wrap' => '<ul id="mobilenav"><li id="back"><a href="#top" class="menutop">'. __('', 'framework') . '</a></li>%3$s</ul>')); ?>
             <?php } else { /* else use wp_list_pages */?>
                 <ul class="sf-menu sf-vertical">
                     <?php wp_list_pages( array('title_li' => '','sort_column' => 'menu_order', )); ?>
