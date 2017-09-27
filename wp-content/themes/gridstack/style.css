@@ -1613,7 +1613,8 @@ ul.filter li a:visited {
   letter-spacing: 2px;
   font-size: 12px;
   color: #999;
-  border:1px solid transparent;
+  border:0
+      px solid transparent;
 }
 ul.filter li a.active,
 ul.filter li a:hover {
