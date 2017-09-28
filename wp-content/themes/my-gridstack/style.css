@@ -15,5 +15,33 @@ Template: gridstack
     margin-bottom: 0px;
 }
 
+.singlecontent img.alignright,
+.wp-caption.alignright {
+  float: right;
+  margin: 5px 0 10px 5px;
+}
+.singlecontent img.alignleft,
+.wp-caption.alignleft {
+  float:left;
+  margin: 5px 5px 10px 0px;
+} 
+.singlecontent img.aligncenter {
+  margin: 5px 0px 10px 0px;
+} 
 
 
+a.postlink:hover img {
+  -webkit-transform:scale(1) rotate(0deg); /*Webkit: Scale up image to 1.2x original size*/
+  -moz-transform:scale(1) rotate(0deg); /*Mozilla scale version*/
+  -o-transform:scale(1) rotate(0deg); /*Opera scale version*/
+  -ms-transform: scale(1) rotate(0deg); /*MS scale version*/
+  /* Firefox 10+, Firefox on Android - too buggy */
+  /* filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); */
+  filter: gray; /* IE6-9 */
+  filter:  grayscale(100%) opacity(0.5);
+  -webkit-filter: grayscale(100%) opacity(0.5);
+  -moz-filter: grayscale(100%) opacity(0.5);
+  -o-filter: grayscale(100%) opacity(0.5);
+  -ms-filter: grayscale(100%) opacity(0.5);
+
+}
