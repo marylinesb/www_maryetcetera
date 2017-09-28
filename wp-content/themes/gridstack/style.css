@@ -2935,13 +2935,14 @@ img.alignparallax {
   margin-bottom:0px;
 }
 .pagetitle .subtitle {
-  color:#e50c6d;
+  color:#999;
   color:rgba(0,0,0,0.5);
   display: block;
   margin: auto;
-  font-size:20px;
+  font-size:24px;
   line-height:38px;
   margin-bottom: 20px;
+
 }
 .pagetitle .subtitle a {
   font-weight:bold;
