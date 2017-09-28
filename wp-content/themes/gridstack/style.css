@@ -2932,14 +2932,14 @@ img.alignparallax {
   max-width: 500px;
   display: block;
   margin: auto;
-  margin-bottom:20px;
+  margin-bottom:0px;
 }
 .pagetitle .subtitle {
-  color:#999;
+  color:#e50c6d;
   color:rgba(0,0,0,0.5);
   display: block;
   margin: auto;
-  font-size:24px;
+  font-size:20px;
   line-height:38px;
   margin-bottom: 20px;
 }
@@ -5902,7 +5902,7 @@ span.rss-date {
     line-height: 40px;
   }
   .pagetitle .subtitle {
-    font-size: 18px;
+    font-size: 80px;
     line-height: 32px;
   }
   h1 {
