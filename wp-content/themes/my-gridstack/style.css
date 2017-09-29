@@ -70,3 +70,6 @@ a.postlink:hover img {
   -ms-filter: grayscale(100%) opacity(0.5);
 
 }
+div.filtercontainer {
+  margin-bottom:30px;
+}
