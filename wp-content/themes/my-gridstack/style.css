@@ -17,6 +17,8 @@ Template: gridstack
 
 .pagetitle .title {
     max-width: 100%;
+    font-size: 20px;
+  
 }
 
 .pagetitle .subtitle {
@@ -28,6 +30,7 @@ Template: gridstack
   margin-bottom: 20px;
 
 }
+
 .pagetitle .subtitle a {
   font-weight:bold;
 }
@@ -67,4 +70,3 @@ a.postlink:hover img {
   -ms-filter: grayscale(100%) opacity(0.5);
 
 }
-
