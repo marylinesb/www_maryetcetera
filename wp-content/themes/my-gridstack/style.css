@@ -73,3 +73,14 @@ a.postlink:hover img {
 div.filtercontainer {
   margin-bottom:30px;
 }
+ul.filter li a,
+ul.filter li a:visited {
+  padding: 6px 8px;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 12px;
+  color: #d4079c;
+  border:0
+      px solid transparent;
+}
