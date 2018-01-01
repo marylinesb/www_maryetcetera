@@ -54,7 +54,6 @@ Template: gridstack
   margin: 5px 0px 10px 0px;
 } 
 
-
 a.postlink:hover img {
   -webkit-transform:scale(1) rotate(0deg); /*Webkit: Scale up image to 1.2x original size*/
   -moz-transform:scale(1) rotate(0deg); /*Mozilla scale version*/
@@ -83,4 +82,11 @@ ul.filter li a:visited {
   color: #d4079c;
   border:0
       px solid transparent;
+}
+
+.singlecontent h3, .singlecontent h2, .singlecontent h1 {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    color: red;
 }
