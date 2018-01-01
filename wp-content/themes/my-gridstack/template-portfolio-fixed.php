@@ -22,11 +22,6 @@ $autoplay   = (of_get_option('of_portfolio_autoplay') == 'true') ? 'autoplay' : 
 ?>
 
 <?php 
-/* #Get Page Title
-======================================================*/
-get_template_part('functions/templates/page-title-rotator'); ?>
-
-<?php 
 /* #Get Only The Terms From Portfolio Items
 ======================================================*/
 wp_reset_query();
