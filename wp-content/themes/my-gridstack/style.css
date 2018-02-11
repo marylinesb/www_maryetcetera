@@ -119,3 +119,5 @@ p, ul {
 .controls p.hoverhelper {
     margin-top: 0px;
 }
+
+.container .sixteen.columns                 { width: 939px; }
