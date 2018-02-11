@@ -5,9 +5,6 @@ Template Name: Full Width Page
 */
 get_header(); ?>
 
-<br/>
-<br/>
-
 <div id="postcontainer">
     <div class="container">
         <div class="sixteen columns">
