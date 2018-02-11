@@ -121,3 +121,7 @@ p, ul {
 }
 
 .container .sixteen.columns                 { width: 939px; }
+
+.singlecontent a img {
+    display: inline;
+} 
