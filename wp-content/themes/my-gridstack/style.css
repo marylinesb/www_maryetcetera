@@ -110,10 +110,10 @@ ul.filter li a:visited {
 }
 
 p, ul {
-    font-size: 15px;
-    line-height: 22px;
+    font-size: 14px;
+    line-height: 18px;
     margin-bottom: 20px;
-    letter-spacing: 0.5px; }
+    letter-spacing: 0px; }
      color: #2d2e30;
 }
 
