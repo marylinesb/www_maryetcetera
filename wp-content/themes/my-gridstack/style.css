@@ -89,15 +89,15 @@ ul.filter li a:visited {
 }
 
 .singlecontent h1 {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 10px;
     margin-bottom: 30px;
     color: #000000;
 }
 
 .singlecontent h2 {
-    font-size: 14px;
-    line-height: 5px;
+    font-size: 16px;
+    line-height: 22px;
     margin-bottom: 30px;
     color: #000000;
 }
