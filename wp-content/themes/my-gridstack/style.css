@@ -78,12 +78,14 @@ ul.filter {
 }
 ul.filter li a,
 ul.filter li a:visited {
-  padding: 6px 8px;
-  font-size: 14px;
+  padding: 8px 6px;
+  font-size: 13px;
+  font-weight: semibold;
   text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: 12px;
-  color: #d4079c;
+
+  letter-spacing: 1px;
+  font-size: 13px;
+  color: #ff8023;
   border:0
       px solid transparent;
 }
@@ -106,7 +108,7 @@ ul.filter li a:visited {
     font-size: 14px;
     line-height: 20px;
     margin-bottom: 20px;
-    color: ##222121;
+    color: #222121;
 }
 .singlecontent h6 {
     font-size: 12px;
