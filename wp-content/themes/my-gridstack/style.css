@@ -73,8 +73,8 @@ div.filtercontainer {
   margin-bottom:10px;
 }
 ul.filter {
-  margin-bottom:60px;  
-  margin-top:60px;   
+  margin-bottom:30px;  
+  margin-top:20px;   
 }
 ul.filter li a,
 ul.filter li a:visited {
@@ -109,6 +109,8 @@ ul.filter li a:visited {
     margin-bottom: 20px;
     color: #3f3f3f;
 }
+
+    
 .singlecontent h6 {
     font-size: 12px;
     line-height: 10px;
