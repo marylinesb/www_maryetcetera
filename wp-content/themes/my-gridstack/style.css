@@ -78,15 +78,14 @@ ul.filter {
 }
 ul.filter li a,
 ul.filter li a:visited {
-  padding: 8px 6px;
+  padding: 6px 8px;
   font-size: 13px;
-  font-weight: semibold;
   text-transform: uppercase;
 
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
   font-size: 13px;
-  color: #ff8023;
-  border:0
+  color: #222121;
+  border:0px
       px solid transparent;
 }
 
@@ -94,21 +93,21 @@ ul.filter li a:visited {
     font-size: 18px;
     line-height: 10px;
     margin-bottom: 30px;
-    color: #000000;
+    color: #3f3f3f;
 }
 
 .singlecontent h2 {
     font-size: 16px;
     line-height: 22px;
     margin-bottom: 20px;
-    color: #000000;
+    color: #3f3f3f;
 }
 
 .singlecontent h3 {
-    font-size: 14px;
+    font-size: 13px;
     line-height: 20px;
     margin-bottom: 20px;
-    color: #222121;
+    color: #3f3f3f;
 }
 .singlecontent h6 {
     font-size: 12px;
