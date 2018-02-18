@@ -10,6 +10,110 @@ Template: gridstack
 @import url("../gridstack/style.css");
 
 
+/* Seulement pour les ecrans */
+@media only screen and (min-width: 960px) {
+    
+    .container .sixteen.columns { 
+        width: 939px; 
+    }
+    
+    .pagetitle .subtitle {
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 20px;
+    } 
+    
+    .singlecontent h1 {
+        font-size: 18px;
+        line-height: 10px;
+        margin-bottom: 30px;
+        color: #3f3f3f;
+    }
+
+    .singlecontent h2 {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 20px;
+        color: #3f3f3f;
+    }
+
+    .singlecontent h3 {
+        font-size: 13px;
+        line-height: 20px;
+        margin-bottom: 20px;
+        color: #3f3f3f;
+    }
+
+    .singlecontent h6 {
+        font-size: 12px;
+        line-height: 10px;
+        margin-bottom: 30px;
+        color: #000000;
+    }    
+    
+    
+}
+
+/* mobile et tablettes */
+@media only screen and (max-width: 960px) {
+
+    .pagetitle .subtitle {
+        font-size: 14px;
+        line-height: 16px;
+        margin-bottom: 0px;
+    }    
+    
+    .singlecontent h1 {
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 30px;
+        color: #3f3f3f;
+    }
+
+    .singlecontent h2 {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 20px;
+        color: #3f3f3f;
+    }
+
+    .singlecontent h3 {
+        font-size: 13px;
+        line-height: 20px;
+        margin-bottom: 20px;
+        color: #3f3f3f;
+    }
+
+    .singlecontent h6 {
+        font-size: 12px;
+        line-height: 10px;
+        margin-bottom: 30px;
+        color: #000000;
+    }    
+    
+    /* Gallery Changes */
+    .gallery-wrap.fixed,
+    .gallery-wrap.fixed .gallery, 
+    .gallery-wrap .gallery,
+    img.fixedimg, 
+    .singlecontent img.fixedimg,
+    #sitecontainer img.fixedimg,
+    .singlecontent img.alignright, 
+    .wp-caption.alignright,
+    .singlecontent img.alignleft, 
+    .wp-caption.alignleft {
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    
+    .singlecontent img.alignright,
+    .singlecontent img.alignleft {
+        width: 49%;
+    }
+}
+
+
+/* general - commun à tous les appareils */
 .pagetitle {
     padding: 0px 0 0px 0;
     margin-bottom: 0px;
@@ -22,22 +126,12 @@ Template: gridstack
 }
 
 .pagetitle .subtitle {
-  color:#999;
-  display: block;
-  margin: auto;
-  font-size:8px;
-  line-height:20px;
-  margin-bottom: 20px;
-
+    color:#999;
+    display: block;
 }
 
 .pagetitle .subtitle a {
-  font-weight:bold;
-}
-
-.pagetitle .subtitle {
-    font-size: 14px;
-    line-height: 28px;
+    font-weight:bold;
 }
 
 .singlecontent img.alignright,
@@ -72,6 +166,7 @@ a.postlink:hover img {
 div.filtercontainer {
   margin-bottom:10px;
 }
+
 ul.filter {
   margin-bottom:30px;  
   margin-top:20px;   
@@ -89,48 +184,22 @@ ul.filter li a:visited {
       px solid transparent;
 }
 
-.singlecontent h1 {
-    font-size: 18px;
-    line-height: 10px;
-    margin-bottom: 30px;
-    color: #3f3f3f;
+ul.filter li a:hover {
+    color : #009933;
+    font-weight : 500;
 }
 
-.singlecontent h2 {
-    font-size: 16px;
-    line-height: 22px;
-    margin-bottom: 20px;
-    color: #3f3f3f;
-}
-
-.singlecontent h3 {
-    font-size: 13px;
-    line-height: 20px;
-    margin-bottom: 20px;
-    color: #3f3f3f;
-}
-
-    
-.singlecontent h6 {
-    font-size: 12px;
-    line-height: 10px;
-    margin-bottom: 30px;
-    color: #000000;
-}
 p, ul {
     font-size: 16px;
     line-height: 20px;
     margin-bottom: 20px;
-    }
-     color: #222121;
+    color: #222121;
 }
 
 /* Hover Effect */
 .controls p.hoverhelper {
     margin-top: 0px;
 }
-
-.container .sixteen.columns                 { width: 939px; }
 
 .singlecontent a img {
     display: inline;
