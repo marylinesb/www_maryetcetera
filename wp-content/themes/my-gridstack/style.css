@@ -9,6 +9,35 @@ Template: gridstack
 
 @import url("../gridstack/style.css");
 
+#logo img {
+    display: block;
+}   
+
+/* logo */
+@media only screen and (max-width: 767px) {
+    
+    #img-logo-mobile {
+        width: 280px;
+        margin-left: auto;
+        margin-right: auto;   
+    }    
+    
+    #img-logo-desktop {
+        display: none;
+        width: 0px;
+    } 
+}
+
+@media only screen and (min-width: 768px) {
+    #img-logo-mobile {
+        display: none;   
+        width: 0px;
+    }    
+    
+    #img-logo-desktop {
+        width: 300px;
+    }
+}
 
 /* Seulement pour les ecrans */
 @media only screen and (min-width: 960px) {
@@ -56,7 +85,7 @@ Template: gridstack
 
 /* mobile et tablettes */
 @media only screen and (max-width: 960px) {
-
+    
     .pagetitle .subtitle {
         font-size: 14px;
         line-height: 16px;
@@ -111,7 +140,6 @@ Template: gridstack
         width: 49%;
     }
 }
-
 
 /* general - commun à tous les appareils */
 .pagetitle {

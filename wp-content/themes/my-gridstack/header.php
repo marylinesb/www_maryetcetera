@@ -95,7 +95,8 @@ wp_head(); ?>
                 <?php echo is_front_page() ? '<h1>' : '<h2>'; ?>
                     <a href="<?php echo home_url(); ?>">
                         <?php if ( $logo = of_get_option('of_logo') ) { ?>
-                        <img src="<?php echo $logo; ?>" alt="<?php bloginfo( 'name' ); ?>" />
+                            <img id="img-logo-mobile" src="<?php echo $logo; ?>" alt="<?php bloginfo( 'name' ); ?>" />
+                            <img id="img-logo-desktop" src="/wp-content/uploads/2017/09/maryetcetera-stylisme-deco-photo-DIY-setdesign-LOGO-20180219-1.png" alt="<?php bloginfo( 'name' ); ?>" />
                         <?php } else { bloginfo( 'name' );} ?>
                         </a> 
                  <?php echo is_front_page() ? '</h1>' : '</h2>'; ?> 
